@@ -1,0 +1,60 @@
+.btn-pins,.btn-home {
+    position: absolute;
+    top: 50px;
+    right: 12%;
+    border: 1px solid #ed2b96;
+    padding:8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+    background-color: #ed2b96;
+}
+.btn-pins:hover,.btn-home:hover {
+    color: #ed2b96;
+    background-color: transparent;
+}
+.pinned-wrapper {
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pinned-wrapper > h1 {
+    color: #fff;
+    margin: 50px auto;
+    font-family: Poppins, sans-serif;
+}
+.content-wrapper {
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.imageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 16px;
+    border-radius: 12px;
+
+}
+.imageWrapper > img {
+    width: 250px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: #efefef;
+}
+.imageWrapper > p {
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
